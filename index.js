@@ -2,8 +2,7 @@ const axios = require('axios');
 const nodemailer = require('nodemailer');
 
 // استبدل هذا الرابط برابط Web App الذي نسخته من قوقل شيت بعد النشر
-const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec';
-// إعداد خدمة إرسال الإيميلات (Nodemailer)
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycyb_0z_C0hZX5P7D6GAkcd23Ru64KQUmprzPi9uGj2KUn8AdhM_MpaRwyO2pGt0Jk4j/exec';// إعداد خدمة إرسال الإيميلات (Nodemailer)
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
