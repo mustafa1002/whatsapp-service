@@ -3,7 +3,6 @@ const nodemailer = require('nodemailer');
 
 // استبدل هذا الرابط برابط Web App الذي نسخته من قوقل شيت بعد النشر
 const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec';
-
 // إعداد خدمة إرسال الإيميلات (Nodemailer)
 const transporter = nodemailer.createTransport({
   service: 'gmail',
