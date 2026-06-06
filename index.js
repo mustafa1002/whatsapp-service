@@ -2,7 +2,7 @@ const axios = require('axios');
 const nodemailer = require('nodemailer');
 
 // 🔴 الصق هنا الرابط الجديد الذي نسخته بعد النشر من داخل الملف الحالي مباشرة
-const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/YOUR_NEW_REAL_SCRIPT_ID/exec';
+const GOOGLE_SCRIPT_URL = 'AKfycbzmWFOjSub3ojOzL3v5eAd2l4CzSpChyw4PZbmW1i8';
 
 // إعداد خدمة إرسال الإيميلات
 const transporter = nodemailer.createTransport({
