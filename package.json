@@ -1,14 +1,16 @@
 {
-  "name": "whatsapp-automation-service",
+  "name": "whatsapp-service",
   "version": "1.0.0",
-  "description": "Automated WhatsApp Gateway for Google Sheets Tracking",
+  "description": "نظام العداد التنازلي الموقوت والإشعارات التلقائية",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.19.2",
-    "whatsapp-web.js": "^1.23.0",
-    "qrcode-terminal": "^0.12.0"
+    "axios": "^1.6.0",
+    "nodemailer": "^6.9.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
